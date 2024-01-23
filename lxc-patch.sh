@@ -3,7 +3,7 @@ echo "######LXC的一键补丁脚本，使用方法确保utils文件夹在内核
 echo "           "
 
 #手机的内核配置文件，一般在内核源码目录下的arch/arm64/configs或arch/arm64/configs/vendor下，一般为机型代号，高通骁龙处理器代号啥的，比如mi5 的为gemini_defconfig,一加8系列为kona_pref_defconfig,按实际情况修改
-export KERNEL_DEFCONFIG=vendor/cmi_user_defconfig
+export KERNEL_DEFCONFIG=chiron_defconfig
 #KERNEL_DEFCONFIG=vendor/xxxx_defconfig或KERNEL_DEFCONFIG=xxxx_defconfig                                                                           
 export GKI_ROOT=$(pwd)
 
